@@ -7,6 +7,8 @@ gem 'rails', '3.2.12'
 
 group :development do
   gem 'sqlite3', '1.3.7'
+  gem 'rspec-rails', '2.11.0'
+
 end
 
 # Gems used only for assets and not required
@@ -21,6 +23,10 @@ gem 'jquery-rails', '2.0.2'
 
 group :production do
   gem 'pg', '0.12.2'
+end
+
+group :test do
+  gem 'capybara', '1.1.2'
 end
 
 # To use ActiveModel has_secure_password
